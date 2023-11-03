@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej Formulario</title>
+</head>
+<body>
+    <form method="post"">
+        <fieldset>
+            <label for="nombre">Nombre</label>
+            <input type="text" autofocus required>
+            <br><br>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" required>
+            <br><br>
+            <label for="Correo">Correo electrónico</label>
+            <input type="email">
+            <br><br>
+            <label for="URL">URL</label>
+            <input type="url" placeholder="Escribe la URL de tu página">
+            <br><br>
+            <label for="fecha">Fecha</label>
+            <input type="date">
+            <br><br>
+            <label for="Tiempo">Tiempo</label>
+            <input type="time">
+            <br><br>
+            <label for="Numero">Número (min -10, max 10): </label>
+            <input type="number" min="-10" max="10">
+            <br><br>
+            <label for="telefono">Telefono</label>
+            <input type="tel">
+            <br><br>
+            <label for="termino">Término de búsqueda</label>
+            <input type="text">
+            <br><br>
+            <label for="color ">Color favorito</label>
+            <input type="color">
+            <br><br>
+            <label for="sistema">Sistema operativo</label>
+            <select name="sistema" id="operativo">
+                <option value="Windows" >Windows</option>
+                <option value="Linux" >Linux</option>
+                <option value="MacOS">MacOS</option>
+            </select>
+            <br><br>
+            <label for="lenguaje">¿Qué lenguaje de programación conoces?</label>
+            <input type="checkbox" checked> HTML 5
+            <input type="checkbox" checked> CSS3
+            <input type="checkbox"> Javascript
+            <input type="checkbox"> Php
+            <input type="checkbox"> Python
+            <br><br>
+            <label for="Python">¿Sabes utilizar Python?</label>
+            <input type="radio" checked>Sí
+            <input type="radio">No
+            <br><br>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <br><br>
+            <input type="submit" value="submit!">
+        </fieldset>
+    </form>
+</body>
+</html>
